@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Minecraft';
+    src: url('fonts/Minecraft.woff2') format('woff2'),
+         url('fonts/Minecraft.woff') format('woff'),
+         url('fonts/Minecraft.ttf') format('truetype'),
+         url('fonts/Minecraft.svg#Minecraft') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Minecraft', 'Courier New', monospace;
+}
+.header img {
+    border-radius: 10px;
+    transition: border-radius 0.2s ease-out;
+}
+
+.header img:hover {
+    border-radius: 50%;
+}
